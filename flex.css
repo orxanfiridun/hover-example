@@ -1,0 +1,177 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  height: 100px;
+}
+.left {
+  flex: 1;
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: -12px;
+}
+
+.right {
+  flex: 3;
+  display: flex;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.left-child {
+  flex: 3;
+
+  display: flex;
+}
+.search {
+  width: 170px;
+  height: 40px;
+  margin: 30px;
+  border: 1px solid rgb(29, 30, 31);
+  border-radius: 20px;
+}
+.search div {
+  margin: 10px;
+  margin-left: 25px;
+  font-size: small;
+  width: 170px;
+}
+.company {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -50px;
+}
+.company div {
+  margin-left: 30px;
+  margin-top: 42px;
+  font-size: small;
+}
+.company-red {
+  color: brown;
+}
+.phone {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 40px;
+}
+.phone-icon {
+  width: 30px;
+  height: 30px;
+  flex: 1;
+  margin-left: 5px;
+  color: black;
+}
+.phone-text {
+  flex: 1;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.right-child {
+  flex: 1;
+  
+  
+  
+  display: flex;
+  justify-content: space-around;
+}
+.right-child > div{
+    border: 1px solid;
+    margin-top: 30px;
+    
+    border-radius: 50%;
+    
+    
+}
+.right-child > div:hover{
+    color: red;
+}
+.right-child img{
+    background: none;
+}
+.right-child > img{
+    margin: 10px;
+    width: 70%; 
+    height: 70%; 
+}
+
+.user{
+    width: 30px;
+    height: 30px;
+    
+
+}
+.user-1{
+  margin: 3px;
+}
+.heart{
+    width: 30px;
+    height: 30px;
+    
+}
+.heart-1{
+  margin: 4px;
+}
+.scales{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.scales-1{
+  margin: 3px;
+}
+.cart{
+    width: 30px;
+    height: 30px;
+}
+.cart-1{
+  margin: 3px;
+}
+.zero{
+  position: absolute;
+  top: 18px;
+  right: 129px;;
+  color: white;
+  background: black;
+  width: 13px;
+  height: 19px;
+  border-radius: 50%;
+  text-align: center;
+  
+
+    
+}
+.zero1{
+  position: absolute;
+  top: 18px;
+  right: 65px;
+  color: white;
+  background: black;
+  width: 13px;
+  height: 19px;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+.zero2{
+  position: absolute;
+  top: 18px;
+  right: 8px;
+  color: white;
+  background: black;
+  width: 13px;
+  height: 19px;
+  border-radius: 50%;
+  text-align: center;
+  
+}
